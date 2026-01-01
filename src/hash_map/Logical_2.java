@@ -8,9 +8,8 @@ public class Logical_2 {
 
 		Map<Character, Integer> map = new HashMap<Character, Integer>();
 		for (char ch : name.toCharArray()) {
-			map.put(ch, map.getOrDefault(ch, 0)+1);
+			map.put(ch, map.getOrDefault(ch, 0) + 1);
 		}
 		System.out.println(map);
 	}
-
 }
