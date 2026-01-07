@@ -32,6 +32,9 @@ public class Logical_2 {
 		System.err.println(list);
 		
 		System.out.println("----------");
+		
+		
+		
 	}
 
 }
