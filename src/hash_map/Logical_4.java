@@ -11,5 +11,9 @@ public class Logical_4 {
 		map.put(3, 'A');
 		map.put(4, 'A');
 		System.out.println(map);
+		
+		
+		// Collection<Integer> list = new Collection<Integer>();
+		
 	}
 }
