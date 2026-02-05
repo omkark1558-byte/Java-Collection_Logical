@@ -4,7 +4,7 @@ public class queue_1 {
 	static class Queue {
 		static int arr[];
 		static int size;
-		static int rear = -1;
+		static int rear = +1;
 
 		Queue(int size) {
 			arr = new int[size];
@@ -52,6 +52,7 @@ public class queue_1 {
 		q.add(2);
 		q.add(3);
 		q.add(4);
+		q.add(5);
 
 		while (!q.isEmpty()) {
 			System.out.println(q.peek());
